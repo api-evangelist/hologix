@@ -1,7 +1,25 @@
 aid: hologix
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hologix.png
 name: Hologix
-description: Hologix is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Hologix, Inc. (formerly MBA Technologies, founded 1989) was a Phoenix, Arizona software
+  company that developed Attricom, a business-to-business eCommerce order management solution built for
+  manufacturers with complex, attribute-based product lines in the metals, textile, and paper and forest
+  products industries. Attricom streamlined configuration, quoting, and order management so large-scale
+  producers could offer closer, self-service ordering relationships to their customers. Hologix was
+  venture-backed by Insight Partners, Adams Capital Management, Integral Capital Partners, and Kemper
+  Ventures, and has since ceased operations. It is retained in the API Evangelist network as a portfolio
+  lead; no public API, developer portal, or product website is currently reachable.
 url: https://raw.githubusercontent.com/api-evangelist/hologix/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +27,44 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-formerly: MBA Technologies
+x-founded: '1989'
+x-headquarters: Phoenix, Arizona, USA
+x-product: Attricom (B2B eCommerce order management)
+x-industries-served:
+- Metals
+- Textile
+- Paper and forest products
+x-investors:
+- Insight Partners
+- Adams Capital Management
+- Integral Capital Partners
+- Kemper Ventures
+x-enrichment-note: Identity confirmed via Insight Partners portfolio page and secondary company profiles
+  (Preqin, CB Insights, ZoomInfo). Company is defunct and not an API provider; candidate domains
+  (hologix.com, attricom.com) are unreachable. No API/OpenAPI/docs/developer surface exists to search or
+  derive artifacts from, so no API artifacts were produced (no fabrication).
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- eCommerce
+- Order Management
+- B2B
+- Manufacturing
+- Supply Chain
+- Configure Price Quote
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
