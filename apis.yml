@@ -45,7 +45,7 @@ x-enrichment-note: Identity confirmed via Insight Partners portfolio page and se
   (Preqin, CB Insights, ZoomInfo). Company is defunct and not an API provider; candidate domains
   (hologix.com, attricom.com) are unreachable. No API/OpenAPI/docs/developer surface exists to search or
   derive artifacts from, so no API artifacts were produced (no fabrication).
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
